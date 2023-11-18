@@ -18,11 +18,11 @@ test {
     useJUnitPlatform()
 }
 
-jar {
-    manifest {
-        attributes('Main-Class': 'dssc.name.Main')
-    }
-}
+//jar {
+//    manifest {
+//        attributes('Main-Class': 'dssc.name.Main')
+//    }
+//}
 
 application {
     mainClass = 'dssc.name.Main'
